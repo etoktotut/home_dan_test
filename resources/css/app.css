@@ -1,0 +1,139 @@
+body {
+  background: #E0E0E0;
+  width: 70%;
+  margin-left: 5%;
+}
+
+footer{
+  width: 80%;
+  margin-left: 15%;
+}
+
+ /* button.button.btn-success {
+
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+btn-success {
+    color: #fff;
+    background-color: #499a5c;
+    border-color: #28a745;
+  } */
+
+div.tech {
+  line-height: 120%;
+  font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+  font-size:14px;
+}
+
+
+
+.col-1.stock1 {
+  line-height: 90%;
+  font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+  font-size: 10px;
+}
+
+.col-2.stock1 {
+  line-height: 90%;
+  font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+  font-size: 10px;
+}
+
+.codecs {
+  white-space: nowrap;
+  /* width: 150px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+
+
+
+.btn.btn-warning.narrow_look.active
+{
+  
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+} 
+
+.btn.btn-danger.narrow_look.active
+{   
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+} 
+
+.narrow_look {
+  display: none;
+}
+
+.narrow_look.active {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding: 5 5 5 5;
+    margin-bottom: 10px;
+    }
+
+.wide_look {
+ display: none;
+}
+
+.wide_look.active {
+  display: block;
+
+} 
+
+.wide_look_header:after {
+content: '';
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  width: 17px;
+  height: 17px;
+  border: 1px solid;
+  border-color: #000 transparent transparent #000;
+  transform: rotate(45deg);
+  transition: border-color 0.5s ease-in-out, bottom 0.5s ease-in-out;
+  
+}
+
+/* .narrow_look_form {
+  margin: 10px;
+  border-radius: .25rem;
+} */
+
+.narrow_look:after {
+  content: '';
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  width: 17px;
+  height: 17px;
+  border: 1px solid;
+  border-color: transparent #000 #000 transparent;
+  transform: rotate(45deg);
+  transition: border-color 0.5s ease-in-out, bottom 0.5s ease-in-out;
+}
+
+/* div.alert.narrow_look_form.active:after {
+    border-color: #000 transparent transparent #000;
+    bottom: 5px;
+} */
+
+.seek_form {
+  list-style-type: none;
+}
+
+.seek_form li {
+  margin-bottom: 10px;
+}
+
+.button_seek_li {
+  text-align: right;
+}
+
