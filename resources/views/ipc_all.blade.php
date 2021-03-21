@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title-block')Камеры@endsection
 @section('scripts')
-  <script type="text/javascript" src="http://127.0.0.1:8000/storage/js/ipc_all.js" defer></script>
+  <script type="text/javascript" src="{{"asset(js/ipc_all.js)"}}" defer></script>
 @endsection
 
 @section('content')

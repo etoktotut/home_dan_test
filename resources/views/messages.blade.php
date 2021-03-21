@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title-block')Сообщения@endsection
 @section('scripts')
-  <script type="text/javascript" src="http://127.0.0.1:8000/storage/js/messages_accord.js" defer></script>
+  <script type="text/javascript" src="{{ asset("js/messages_accord.js") }}" defer></script>
 @endsection
 @section('content')
   
